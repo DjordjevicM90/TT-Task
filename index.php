@@ -1,10 +1,3 @@
-<?php
-
-    $symbolDetails = null;
-    require_once("classPHP/guzzle.php");
-    require_once("function.php");
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +17,14 @@
 </head>
 <body>
 
-    <?php include_once("_header.php");?>       
+    <?php 
+
+    $symbolDetails = null;
+    require_once("classPHP/guzzle.php");
+    require_once("function.php");
+    include_once("_header.php");
+    
+    ?>       
     
     <table>                                     
             <tr>                                
